@@ -1,0 +1,15 @@
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\bin\Debug\net8.0\Learning C-Sharp.exe
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\bin\Debug\net8.0\Learning C-Sharp.deps.json
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\bin\Debug\net8.0\Learning C-Sharp.runtimeconfig.json
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\bin\Debug\net8.0\Learning C-Sharp.dll
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\bin\Debug\net8.0\Learning C-Sharp.pdb
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\obj\Debug\net8.0\Learning C-Sharp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\obj\Debug\net8.0\Learning C-Sharp.AssemblyInfoInputs.cache
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\obj\Debug\net8.0\Learning C-Sharp.AssemblyInfo.cs
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\obj\Debug\net8.0\Learning C-Sharp.csproj.CoreCompileInputs.cache
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\obj\Debug\net8.0\Learning C-Sharp.sourcelink.json
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\obj\Debug\net8.0\Learning C-Sharp.dll
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\obj\Debug\net8.0\refint\Learning C-Sharp.dll
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\obj\Debug\net8.0\Learning C-Sharp.pdb
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\obj\Debug\net8.0\Learning C-Sharp.genruntimeconfig.cache
+E:\Development\Repositories\Learning-C-Sharp\Learning C-Sharp\obj\Debug\net8.0\ref\Learning C-Sharp.dll
