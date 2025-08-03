@@ -1,1 +1,78 @@
+# Visual Studio cache folders
 .vs/
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# MonoDevelop/Xamarin Studio files
+*.userprefs
+
+# Rider project files
+.idea/
+
+# Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotCover files
+*.dotCover
+
+# NCrunch files
+*.ncrunch*
+.*crunch*.local.xml
+
+# Coverage results
+*.coverage
+*.coveragexml
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Visual Studio profiler files
+*.psess
+*.vsp
+*.vspx
+
+# Others
+*.pdb
+*.cache
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.idb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlh
+*.tli
+*.vspscc
+*.vssscc
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# VS Code directories
+.vscode/
+
+# Mac OS files
+.DS_Store
