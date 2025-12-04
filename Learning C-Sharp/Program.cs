@@ -1,27 +1,95 @@
 ﻿using System;
 using System.Threading.Tasks.Sources;
+using System.Collections.Generic;
+using System.Reflection.Metadata.Ecma335;
 
 class Program
 {
     static void Main(string[] args)
     {
-
-        string wellcome_text = "Wellcome to this console application";
-        Console.WriteLine(wellcome_text);
-        Console.WriteLine("Enter a Number: ");
-        string input = Console.ReadLine();
-        int number = Convert.ToInt32(input);
-
-        if (number == 1)
+        var numbers = new List<int>
         {
-            Console.WriteLine($"your chosen number is {number}");
-        }
-        else if (number == 2)
+            12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,42,43,5,3
+        };
+
+        while (true)
         {
-            Console.WriteLine($"your chosen number is {number}");
+            Console.WriteLine($"Wrtie a number from 1 to {numbers.Count}");
+            var goalCount = Console.ReadLine();
+
+            if (Convert.ToInt32(goalCount) == numbers.Count)
+            {
+                var console_time = 0;
+                foreach (var number in numbers)
+                {
+
+
+                    if (console_time <= Convert.ToInt32(goalCount) - 1)
+                    {
+                        Console.WriteLine(number);
+                        console_time++;
+                        continue;
+                    }
+                    else if (console_time == Convert.ToInt32(goalCount) - 1)
+                    {
+                        Console.WriteLine("Finished");
+                        break;
+                    }
+
+
+
+                }
+
+            }
+            else
+            {
+                Console.WriteLine($"your target goal is hight, max is {numbers.Count}");
+                Console.WriteLine("try one more time");
+                continue;
+
+            }
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//using System;
+//using System.Threading.Tasks.Sources;
+
+//class Program
+//{
+//    static void Main(string[] args)
+//    {
+
+//        string wellcome_text = "Wellcome to this console application";
+//        Console.WriteLine(wellcome_text);
+//        Console.WriteLine("Enter a Number: ");
+//        string input = Console.ReadLine();
+//        int number = Convert.ToInt32(input);
+
+//        if (number == 1)
+//        {
+//            Console.WriteLine($"your chosen number is {number}");
+//        }
+//        else if (number == 2)
+//        {
+//            Console.WriteLine($"your chosen number is {number}");
+//        }
+//    }
+//}
 
 
 
