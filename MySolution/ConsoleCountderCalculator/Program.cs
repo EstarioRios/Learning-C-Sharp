@@ -16,6 +16,10 @@ class Program
             {
                 Console.WriteLine($"your entered number is bigger than {numbers.Count}");
             }
+            else if (1 > goalCount)
+            {
+                Console.WriteLine("your entered number is smaller than 1");
+            }
             else
             {
                 var countedTime = 0;
