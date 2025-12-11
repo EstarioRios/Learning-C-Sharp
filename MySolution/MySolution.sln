@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleNameTaker", "Console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCountderCalculator", "ConsoleCountderCalculator\ConsoleCountderCalculator.csproj", "{DAAB70F2-D3ED-488E-855C-344FA67AE971}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthSystem", "AuthSystem\AuthSystem.csproj", "{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{DAAB70F2-D3ED-488E-855C-344FA67AE971}.Release|x64.Build.0 = Release|Any CPU
 		{DAAB70F2-D3ED-488E-855C-344FA67AE971}.Release|x86.ActiveCfg = Release|Any CPU
 		{DAAB70F2-D3ED-488E-855C-344FA67AE971}.Release|x86.Build.0 = Release|Any CPU
+		{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}.Debug|x64.Build.0 = Debug|Any CPU
+		{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}.Debug|x86.Build.0 = Debug|Any CPU
+		{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}.Release|x64.ActiveCfg = Release|Any CPU
+		{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}.Release|x64.Build.0 = Release|Any CPU
+		{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}.Release|x86.ActiveCfg = Release|Any CPU
+		{E337F46B-E4D8-4C28-ACD4-D12501E2C5A8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
