@@ -50,6 +50,13 @@ class Program
 
         while (true)
         {
+            Console.WriteLine("do you want do it? y/n");
+            string answer = Console.ReadLine();
+            if (answer == "n")
+            {
+                Console.WriteLine("==================LOOP-BREAKED==================");
+                break;
+            }
             Console.WriteLine("Write your FirstName:");
             string firstNameInput = Console.ReadLine();
 
@@ -89,6 +96,23 @@ class Program
                 continue;
             }
         }
+        if (dataBase.Count == 0)
+        {
+            Console.WriteLine("There is no User");
+            Console.WriteLine("Finished");
+        }
+        else
+        {
+            foreach (var item in dataBase)
+            {
+                Console.WriteLine("=======================USER=======================");
+                Console.WriteLine($"FirstName: {item.Value.FirstName}");
+                Console.WriteLine($"LastName: {item.Value.LastName}");
+                Console.WriteLine($"Password: {item.Value.Password}");
+            }
+            Console.WriteLine("Finished");
+        }
+
     }
 
 }
